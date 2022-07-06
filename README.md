@@ -13,9 +13,9 @@ Features:
 6.	PAY_0 to PAY_6: History of past payment. We tracked the past monthly payment records (from April to September, 2005)
 7.	BILL_AMT1 to BILL_AMT6: Amount of bill statements.
 8.	PAY_AMT1 to PAY_AMT6: Amount of previous payments. 
+9.  Default payment next month:  Yes = 1, No = 0.
 Target Label:
 Whether a person shall default in the credit card payment or not.
-9.	default payment next month:  Yes = 1, No = 0.
 Apart from training files, we also require a "schema" file from the client, which contains all the relevant information about the training files such as:
 Name of the files, Length of Date value in FileName, Length of Time value in FileName, Number of Columns, Name of the Columns, and their datatype.
 #### Data Validation
